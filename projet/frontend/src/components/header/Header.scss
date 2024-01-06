@@ -1,0 +1,38 @@
+@use '../../styles/colors';
+@use '../../styles/variables';
+@use '../../styles/mixins';
+
+header{
+    @include mixins.flex-between;
+    width: 100%;
+    height: variables.$gutter;
+    padding: 0 variables.$gutter;
+    
+    .logo{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+        span{
+            color: colors.$highlight;
+            font-size: 1.5em;
+        }
+    }
+
+    .switch_page{
+        cursor: pointer;
+        svg{
+            width: 2em;
+            height: 2em;
+            fill: colors.$tertiary;
+            opacity: 0.5;
+            transition: all 0.3s ease-in-out;
+
+            &:hover{
+                opacity: 1; 
+            }
+        }
+    }
+}

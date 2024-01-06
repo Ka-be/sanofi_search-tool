@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 50px;
+}
+header .logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+header .logo span {
+  color: #9852ed;
+  font-size: 1.5em;
+}
+header .switch_page {
+  cursor: pointer;
+}
+header .switch_page svg {
+  width: 2em;
+  height: 2em;
+  fill: #F8F8F8;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+header .switch_page svg:hover {
+  opacity: 1;
+}
