@@ -52,3 +52,8 @@ h6 {
 html {
   font-family: "Roboto", sans-serif;
 }
+
+html {
+  background: linear-gradient(135deg, #160E36 15%, #5944AF 95%);
+  color: #F8F8F8;
+}
