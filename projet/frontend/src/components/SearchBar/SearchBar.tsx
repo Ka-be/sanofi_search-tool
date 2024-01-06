@@ -5,11 +5,11 @@ const SearchBar = () => {
     return (
         <div className='bar'>
             <div className="bar-subject">
-                <label htmlFor="subject">Subject</label>
+                <label htmlFor="subject">Quoi ?</label>
                 <input type="search" placeholder="Accident, fils électriques, blessure, fuite..." />
             </div>
             <div className="bar-location">
-                <label htmlFor="location">Location</label>
+                <label htmlFor="location">Où ?</label>
                 <select id='location'>
                     <option value="uap1">UAP1</option>
                     <option value="uap2">UAP2</option>
