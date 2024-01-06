@@ -1,30 +1,32 @@
-# Project Title - ![Status](https://img.shields.io/badge/Status-Not%20started-eb3b5a?style=flat-square)
+# SANOFI Search Tool - Refer.it - ![Status](https://img.shields.io/badge/Status-On%20going-fd9644?style=flat-square)
 
-![Status](https://img.shields.io/badge/Status-On%20going-fd9644?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Finished-20bf6b?style=flat-square)
 
-<img src="img/logo.svg" width=10%>
+<!-- ![Status](https://img.shields.io/badge/Status-Finished-20bf6b?style=flat-square) -->
 
-Description du projet
+<!-- <img src="img/logo.svg" width=10%> -->
+
+Moteur de recherche interne pour SANOFI AMBARES, permettant d'effectuer une recherche du référent adapté selon mots-clefs / zone.
+
+
+Lien vers le [Cahier des charges fonctionnel](./CDCF.md)
 
 ---
 
 ## 🛠 Tech Stack
 
 **Client:**
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?&logo=html5&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?&logo=tailwind-css&logoColor=white)
-![JS](https://img.shields.io/badge/JavaScript-F7DF1E?&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?&logo=react&logoColor=61DAFB)
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?&logo=typescript&logoColor=white)
 ![SASS](https://img.shields.io/badge/Sass-CC6699?&logo=sass&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?&logo=bootstrap&logoColor=white)
+
+**Back-Office:**
+TBD
 
 **Server:**
-![None](https://img.shields.io/badge/NONE-778899?)
 ![Node](https://img.shields.io/badge/Node.js-339933?&logo=nodedotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?&logo=postgresql&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?&logo=express&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?&logo=php&logoColor=white)
+
 
 **Other:**
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?&logo=vite&logoColor=FFD62E)
@@ -33,15 +35,7 @@ Description du projet
 ---
 
 ## 💡 Features
-
-![Responsive](https://img.shields.io/badge/Responsive-None-E74C3C?style=flat-square)
-![Responsive](https://img.shields.io/badge/Responsive-Partial-3498DB?style=flat-square)
 ![Responsive](https://img.shields.io/badge/Responsive-Full-27AE60?style=flat-square)
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
 
 ---
 
@@ -50,20 +44,21 @@ Description du projet
 ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?&logo=visual%20studio%20code&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?&logo=figma&logoColor=white)
 ![Adobe Illustrator](https://img.shields.io/badge/Adobe%20Illustrator-FF9A00e&logo=adobe%20illustrator&logoColor=white)
-![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?&logo=Adobe%20Photoshop&logoColor=black)
-![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FFe&logo=Adobe%20Lightroom&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?&logo=notion&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?&logo=Jira&logoColor=white)
 
 ---
 
 ## 📲 Deployment
 
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?&logo=netlify&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?&logo=vercel&logoColor=white)
+<!-- ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?&logo=netlify&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?&logo=vercel&logoColor=white) -->
+
+TBD
 
 ---
 
-## 🎨 Color Reference
+<!-- ## 🎨 Color Reference
 
 | Color      | Hex                                                                |
 | ---------- | ------------------------------------------------------------------ |
@@ -72,11 +67,13 @@ Description du projet
 | Light grey | ![#34495E](https://placehold.co/15x15/34495E/34495E.png) `#34495E` |
 | Silver     | ![#BDC3C7](https://placehold.co/15x15/BDC3C7/BDC3C7.png) `#BDC3C7` |
 
----
+--- -->
 
 ## 📸 Screenshots
 
-<img src="img/screenshot.png" width=50%>
+<img src="./concept/mockups/home.png" width=25%>
+<img src="./concept/mockups/result.png" width=25%>
+<img src="./concept/mockups/referents.png" width=25%>
 
 ---
 
