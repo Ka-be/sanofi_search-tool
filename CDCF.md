@@ -196,22 +196,17 @@ e02 }o----|| e01
 
 ![ER Diagram](./plantuml_out/plant_ER_1.png)
 
-## Wireframes
-
-Page d'accueil :
-
-![wireframe page accueil](./j01-assets/wireframe-index.png)
-
-Page de projet :
-
-![wireframe page projet](./j01-assets/wireframe-project.png)
 
 ## Maquettes
 
 Page d'accueil :
 
-![mockup page accueil](./mockups/page_accueil.png)
+![mockup page accueil](./concept/mockups/home.png)
 
-Page de projet :
+Page de résultat de recherche :
 
-![mockup page projet](./mockups/page_projet.png)
+![mockup page résultat](./concept/mockups/result.png)
+
+Liste des référents :
+
+![mockup page référents](./concept/mockups/referents.png)
