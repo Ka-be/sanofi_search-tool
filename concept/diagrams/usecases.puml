@@ -1,0 +1,15 @@
+@startuml
+top to bottom direction
+actor Utilisateur as u
+package Refer.it {
+  usecase "Réaliser une recherche" as UC1
+  usecase "Consulter la réponse de la recherche" as UC2
+  usecase "Consulter la liste des référents" as UC3
+  usecase "Contacter un référent" as UC4
+}
+u --> UC1
+u --> UC3
+UC2 <.. UC1
+UC4 <.. UC3
+UC4 <.. UC2
+@enduml

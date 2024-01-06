@@ -68,98 +68,18 @@ Le public cible de ce projet sont l'ensemble des employés de SANOFI AMBARES sus
 | 4          | Utilisateur    | pouvoir contacter le référent suggeré                     | la page de référent suggeré.    |
 
 ## Use Cases Diagramme (UC)
+TBD
 
-```plantuml
-@startuml
-left to right direction
-actor Invité as i
-package SiteVitrine {
-  usecase "Consulter liste projets" as UC1
-  usecase "Naviguer détail projet" as UC2
-  usecase "Consulter adresse email entreprise" as UC3
-  usecase "Consulter socials entreprise" as UC4
-}
-i --> UC1
-i --> UC2
-i --> UC3
-i --> UC4
-@enduml
-```
-
-![UC Diagram](./plantuml_out/plant_UC_1.png)
-
-## Diagramme de Séquence
-
-_FindAllProjects_ :
-
-```plantuml
-@startuml
-Invité -> "dashboardController" as D : 1: Afficher Projets
-D -> "Projet" as C : 1.1 : getProjets(): listeProjets
-C --> D : 1.2 : Projets
-D -> "ViewProjet" as V : 1.3 : render(projets)
-V --> D : 1.4: renderView
-D --> Invité : 1.5 : ok
-@enduml
-```
-
-![Sequence Diagram FindAllProjects](./plantuml_out/plant_Seq_1.png)
-
-_FindProjectById_ :
-
-```plantuml
-@startuml
-Invité -> "projectDetailController" as D : 1: Afficher Détail Projet
-D -> "Projet" as C : 1.1 : getProjet(int): Projet
-C --> D : 1.2 : Projet
-D -> "ViewProjetDetail" as V : 1.3 : render(projet)
-V --> D : 1.4: renderView
-D --> Invité : 1.5 : ok
-@enduml
-```
-
-![Sequence Diagram FindProjectById](./plantuml_out/plant_Seq_2.png)
 
 ## Diagramme de Classe
 
-```plantuml
-@startuml
-package models {
-  class Owner {
-    - login: String
-    - html_url: String
-    - type: String
-    - avatar_url: String
-  }
-  class Project {
-    - private: boolean
-    - archived: boolean
-    - name: String
-    - full_name: String
-    - description: String
-    - language: String
-    - html_url: String
-    - license: String
-  }
-  Owner "0..*" - "1..1" Project
-}
+TBD
 
-package controllers {
-  class DashboardController {
-    + void render()
-  }
-  class ProjectdetailController {
-    + void render(int projectId)
-  }
-}
-@enduml
-```
-
-![Class Diagram](./plantuml_out/plant_C_1.png)
+<!-- ![Class Diagram](./plantuml_out/plant_C_1.png) -->
 
 ## Entités-Relations Diagramme (ERD)
 
-```plantuml
+<!-- ```plantuml
 @startuml
 
 entity "Project" as e01 {
@@ -192,9 +112,8 @@ entity "Owner" as e02 {
 e02 }o----|| e01
 
 @enduml
-```
-
-![ER Diagram](./plantuml_out/plant_ER_1.png)
+``` -->
+TBD
 
 
 ## Maquettes
