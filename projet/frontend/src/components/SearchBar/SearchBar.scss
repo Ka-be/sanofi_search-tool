@@ -1,0 +1,65 @@
+@use "../../styles/variables";
+@use "../../styles/mixins";
+@use "../../styles/colors";
+@use "../../styles/buttons";
+
+.bar {
+	width: 70%;
+	color: colors.$quaternary;
+	background: colors.$tertiary;
+	padding: 0.8em;
+	border-radius: 5em;
+	@include mixins.flex-evenly;
+
+	&-subject,
+	&-location {
+		@include mixins.flex-center;
+		align-items: flex-start;
+		flex-direction: column;
+		padding: 0 1em;
+
+		label {
+			font-size: 0.8rem;
+			font-weight: 700;
+			color: colors.$primary;
+		}
+	}
+
+	&-subject {
+		flex: 3;
+
+		input {
+			width: 100%;
+			border: none;
+
+			&:focus {
+				outline: none;
+			}
+
+			&::placeholder {
+				color: colors.$quaternary;
+				opacity: 0.7;
+				font-size: 0.8rem;
+			}
+
+            &::-webkit-search-cancel-button {
+                -webkit-appearance: none;
+                height: 1em;
+                width: 1em;
+                border-radius: 100%;
+                background: url(../../assets/cancel.svg) no-repeat 50% 50%;
+                background-size: contain;
+                opacity: 0.6;
+                cursor: pointer;
+            }
+		}
+	}
+
+	&-location {
+		flex: 1;
+	}
+
+	button {
+		@include buttons.primary-btn;
+	}
+}

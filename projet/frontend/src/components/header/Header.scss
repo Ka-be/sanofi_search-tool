@@ -7,6 +7,8 @@ header{
     width: 100%;
     height: variables.$gutter;
     padding: 0 variables.$gutter;
+    position: absolute;
+    top: 0;
     
     .logo{
         font-size: 1.2rem;

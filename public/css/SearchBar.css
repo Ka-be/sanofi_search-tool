@@ -1,0 +1,73 @@
+.bar {
+  width: 70%;
+  color: #4F4F4F;
+  background: #F8F8F8;
+  padding: 0.8em;
+  border-radius: 5em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bar-subject, .bar-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 1em;
+}
+.bar-subject label, .bar-location label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #5944AF;
+}
+.bar-subject {
+  flex: 3;
+}
+.bar-subject input {
+  width: 100%;
+  border: none;
+}
+.bar-subject input:focus {
+  outline: none;
+}
+.bar-subject input::-moz-placeholder {
+  color: #4F4F4F;
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+.bar-subject input::placeholder {
+  color: #4F4F4F;
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+.bar-subject input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 1em;
+  width: 1em;
+  border-radius: 100%;
+  background: url(../../assets/cancel.svg) no-repeat 50% 50%;
+  background-size: contain;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.bar-location {
+  flex: 1;
+}
+.bar button {
+  background: #5944AF;
+  color: #F8F8F8;
+  border: none;
+  padding: 1em;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.bar button svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: #F8F8F8;
+}
+.bar button:hover svg {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}

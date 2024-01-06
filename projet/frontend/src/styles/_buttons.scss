@@ -1,0 +1,23 @@
+@use '../styles/colors';
+
+@mixin primary-btn{
+    background: colors.$primary;
+    color: colors.$tertiary;
+    border: none;
+    padding: 1em;
+    border-radius: 100%;
+    cursor: pointer;
+
+    svg{
+        width: 1.5em;
+        height: 1.5em;
+        fill: colors.$tertiary;
+    }
+
+    &:hover{
+        svg{
+            transform: scale(1.2);
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
